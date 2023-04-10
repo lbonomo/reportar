@@ -11,7 +11,8 @@ fn oid2array(oid: &str) -> Vec<u32> {
         x.push(i);
     }
 
-    return x;
+    // we can use 'return', but it is not necessary.
+    x
 }
 
 fn main() {
